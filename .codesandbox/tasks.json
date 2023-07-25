@@ -1,0 +1,17 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "run dev": {
+      "name": "run dev",
+      "command": "python3 manage.py runserver",
+      "runAtStart": true
+    },
+    "py manage.py startserver": {
+      "name": "py manage.py startserver",
+      "command": "python3 manage.py runserver"
+    }
+  }
+}
